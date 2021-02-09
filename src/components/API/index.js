@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Text, Button } from './styles';
-import axios from 'axios'
 
 function API() {
   const [joke, setJoke] = useState('')
